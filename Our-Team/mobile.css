@@ -1,0 +1,101 @@
+@media (max-width: 500px) {
+.our-team{
+	height: 4805px;
+}
+.component-18-parent{
+ display: none;
+ }  
+ .frame-group{
+    left: 280px;
+ }
+ .menu-icon{
+ display: block;
+ }
+ .menui:hover .popup-overlay{
+   display: block;
+ }
+ .group-icon,.frame-icon{
+    display: none;
+ }
+.our-team-child {
+   width: 100%;
+}
+ .meet-the-team{
+    left:  80px;
+    top: 130px;
+ }
+ .each-individual-brings{
+    margin-left: 26rem;
+	width: 30%;
+ }
+ .each-individual-brings-container{
+    top: 230px;
+ }
+ .rectangle-parent15{
+   width: 100%;
+   height: 70rem;
+ }
+ .rectangle{
+   position: absolute;
+    left: calc(50% - 210px); 
+  	width: 456px;
+  	height: 100%;
+	padding-bottom: 20rem;
+}
+.rectangle-parent{
+	width: 2;
+}
+.row-1{
+   left: 30px;
+}
+.newsletter {
+  	left: 20px;
+	top: 40rem;
+}
+.subscribe-to-our-container{
+   left: 2rem;
+}
+.services{
+	left: 20px;
+	top: 150px;
+}
+.about{
+	left: 20px;
+	top: 22rem;
+}
+.help{
+	top: 35rem;
+	left: 20px;
+}
+.contact-us{
+	top:38rem;
+	left: 20px;
+}
+.row-3{
+	left: 20px;
+}
+.social{
+	left: 2px;
+	top: 23rem;
+}
+
+.terms-conditions, .privacy-policy{
+	top: 26rem;
+}
+.medcheck-all-rights{
+	top: 60rem;
+}
+}
+
+@media (max-width:370px) {
+  .frame-group{
+    left: 260px;
+ }
+ .each-individual-brings{
+    margin-left: 27rem;
+	width: 28%;
+ }
+ .newsletter {
+	width: 325px;
+}	
+}

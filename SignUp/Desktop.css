@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.sigup-page{
+     background-image: url(./Gemini_Generated_Image_afm97tafm97tafm9\ \(1\)\ 1.png);
+    background-size:cover;
+	 height: 69rem;
+	 
+}
+.logo{
+    position: relative;
+	top: 20px;
+	margin-left: 6.5rem;
+}
+.logo h4{
+    position: absolute;
+    bottom: 15px;
+    left: 4.3rem;
+    font-family: 'DM Sans' ;
+}
+.menu{
+	position: absolute;
+	left: 20rem;
+	bottom: 12px;
+	display: none;
+}
+form{
+	border: 1px solid rgba(37, 29, 29, 0.3);
+	 max-width: 27rem;
+	margin: 4rem 0px 0px 7rem;
+	background-color: transparent;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);   
+	border-radius: 20px;
+	font-size: 10px;
+}
+
+.start h4{
+	font-family: 'SF Pro';
+	text-align: center;
+	margin-top: 20px;
+}
+.start p{
+	border: none;
+	width: 80px;
+	padding: 20px;
+	border-radius: 80% ;
+	margin: 2rem 0rem 2rem 11rem;
+	background-color: rgba(165, 161, 161, 0.3);
+	font-family: 'SF Pro';
+}
+form .sign{
+	border: 1px solid grey;
+	margin:0px 0px 20px 4rem;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: 1px 3px 1px rgb(183, 178, 178);
+	width: 72%;
+}
+form .fill{
+ border: none;
+ width: 70%;
+ outline: none;
+ background-color: transparent;
+}
+label{
+	color: rgb(140, 133, 133);
+}
+.terms-and-services{
+	width: 70%;
+	margin: auto;
+}
+.terms-and-services span{
+	color: rgb(6, 133, 6);
+}
+input[type="checkbox"]{
+	display: block;
+}
+.verify{
+	color: white;
+}
+.verify button{
+	width: 72%;
+	padding: 22px;
+	margin: 1rem 0px 2rem 3rem;
+	background-color: rgb(7, 156, 7);
+	border: none;
+	border-radius: 20px;
+	color: white;
+	cursor: pointer;
+}
+.verify button:hover{
+	background-color: rgb(46, 242, 46);
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 72%;
+  margin: 0px 0px 2rem 4rem;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #000; /* thickness & color of line */
+}
+
+.divider:not(:empty)::before {
+  margin-right: 10px; /* space before text */
+}
+
+.divider:not(:empty)::after {
+  margin-left: 10px; /* space after text */
+}
+
+.divider span {
+  font-weight: bold;
+}
+.sign a{
+	text-decoration: none;
+	color: #000;
+	margin-left: 2rem;
+	font-weight: 900;
+}
+.sign .link{
+	margin-left: 4rem;
+}
+.account{
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	font-family: 'DM Sans';
+	font-weight: 900;
+}
+.account span{
+	color:rgb(7, 156, 7) ;
+}

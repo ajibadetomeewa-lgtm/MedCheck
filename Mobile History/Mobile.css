@@ -1,0 +1,149 @@
+@media (max-width:450px) {
+    .history{
+        height: 2405px;
+        overflow: hidden;
+    }
+    .component-18-parent{
+        display: none;
+    }
+    .history1{
+        display: none;
+        top: 7px;
+    }
+    .logo-group{
+     left: 30px;
+    }
+    .frame-container{
+        left: 323px;
+    }
+    .notificaton-open{
+        right: 15rem;
+        width: 320px;
+        top: 50px;
+    }
+    .group-icon{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 10rem;
+    }
+    .menui:hover .menu{
+        display: block;
+        right: 9rem;
+        top: 3rem;
+        padding-left: 19px;
+    }
+    .menu .component-18{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 195px;
+    }
+    .menu .component-18:hover,
+    .menu .component-27:hover{
+        background-color: #00ab00;
+	     color: #fff;
+    }
+    .menu .component-27{
+        text-align: left;
+        padding: 10px 0px 10px 10px;
+    }
+    .expand{
+        display: none;
+    }
+    .frame-group{
+        top: 110px;
+        left: 20rem;
+    }
+    .cirecle-prograss-bar-parent3{
+        top: 110px;
+        left: 30px;
+        flex-direction: row;
+        width: 240px;
+    }
+ .frame-parent {
+  top: 239px;
+  left: 30px;
+  width: 100%;
+  overflow: auto;
+}
+.product-name-parent{
+ min-width: 990px;   
+}
+ .rectangle-parent{
+    top: 1205px;
+    height: 100%;
+}
+.rectangle{
+    height: 2043px;
+}
+.row-1{
+   left: 30px;
+}
+.newsletter {
+   left: 20px;
+   top: 42rem;
+   height: 200px;
+}
+.subscribe-to-our-container{
+   top: 2rem;
+  width: 100px;
+}
+.form{
+    top:8rem;
+}
+.subscribe-to-our1{
+    width:80px;
+}
+.services{
+    left: 20px;
+}
+.about{
+    left: 20px;
+    top: 24rem;
+}
+.help{
+    left: 20px;
+    top: 36.5rem;
+}
+.contact-us{
+    left: 20px;
+    top: 39rem;
+}
+.row-3{
+	left: 20px;
+    top: 61rem;
+}
+.social{
+	left: 2px;
+	top: -4rem;
+}
+.medcheck-all-rights{
+    left: calc(30% - 400px);
+    top: 67rem;
+     width: 300px;
+}
+}
+
+@media (max-width:390px) {
+    .frame-container{
+     left: 280px;
+    }
+    .cirecle-prograss-bar-parent3{
+     width: 220px;
+    }
+    .frame-group{
+      left: 17rem;
+    }
+}
+@media (max-width:360px){
+     .frame-container{
+     left: 260px;
+    }
+    .cirecle-prograss-bar-parent3{
+     width: 200px;
+    }
+    .frame-group{
+      left: 15.5rem;
+    }
+}

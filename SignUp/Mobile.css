@@ -1,0 +1,45 @@
+@media (max-width:450px){
+    .sigup-page{
+     background-image: none;
+     height: 80rem;
+    }
+    .logo{
+    position: relative;
+	top: 20px;
+	margin-left: 1rem;
+}
+.start h4{
+    font-size: 30px;
+    margin-bottom: 5rem;
+}
+.menu{
+    display: block;
+    left: 24rem;
+    font-size: 25px;
+}
+form{
+    margin-left: 20px;
+    border:none ;
+    background-color: none;
+    box-shadow: none;
+    width: 27rem;
+    
+}
+form .sign{
+    width: 95%;
+    margin-left: 5px;
+    padding: 20px;
+    font-size: 24px;
+}
+.terms-and-services{
+    width: 80%;
+    margin-left: 20px;
+}
+.verify, .account{
+    color: grey;
+}
+.verify button{
+    width: 95%;
+    margin-left: 2px;
+}
+}
