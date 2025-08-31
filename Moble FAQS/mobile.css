@@ -1,0 +1,170 @@
+@media (max-width:450px) {
+    .faqs{
+        width: 26.7rem;
+        height: 2352px;
+    }
+    .component-18-parent{
+        display: none;
+    }
+    .logo-group{
+        left: 30px;
+    }
+    .frame-parent{
+        left: 320px;
+    }
+    .expand,.group-inner{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .menui:hover .menu{
+        display: block;
+        right: 9rem;
+        top: 3rem;
+        padding-left: 19px;
+    }
+    .menu .component-18{
+        text-align: left;
+        margin-bottom: 10px;
+        width: 195px;
+    }
+    .our-service2,.our-service7{
+        width: 200px;
+        text-align: left;
+    }
+   .component-27{
+        margin-bottom: 6px;
+        padding: 5px 5px ;
+    }
+    .menu .component-18:hover,
+    .menu .component-27:hover{
+        background-color: #00ab00;
+	     color: #fff;
+    }
+    .notificaton-open{
+        right: 11rem;
+        width: 280px;
+        top: 50px;
+    }
+    .mask-group-icon,.group-child{
+        display: none;
+    }
+    .ellipse-parent{
+        width: 23rem;
+        left: 30px;
+        top: 10rem;
+    }
+    .frequently-asked-questions{
+        left:6px;
+        width: 100%;
+        top: 10px;
+        background-color: rgb(5, 112, 5);
+        color: white;
+        font-size: 22px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .fa-question{
+        display: none !important;
+    }
+    .faqs-dropdown-parent{
+        left: 10px;
+        top: 5rem;
+    }
+    .faqs-dropdown{
+        width: 77%;
+    }
+    .what-is-medcheck{
+        width: 70%;
+    }
+    .call-to-action{
+        display: block;
+        left: 1.5rem;
+        width: 90%;
+        padding: 10px 20px 20px 0px;
+        margin-top: 10px;
+    }
+    .verify-product{
+        background-color: #fff;
+        color: #00ab00;
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        top: 61%;
+        border: none;
+        padding: 25px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0, 171, 0, 0.7);
+    }
+    .verify-product:hover{
+        background-color: #dbeedb;
+    }
+    .together-we-can{
+        font-size: 30px;
+    }
+    .together-we-cani{
+        font-size: 30px;
+        width: 90%; 
+        position: absolute;
+        top: 5rem;
+        left: 1rem;
+    }
+    .fa-chevron-down{
+        left: 3rem;
+    }
+     .rectangle-parent{
+    top: 1205px;
+    height: 100%;
+}
+.rectangle{
+    height: 1243px;
+    width: 100%;
+}
+.row-1{
+   left: 30px;
+}
+.newsletter {
+   left: 26px;
+   top: 43rem;
+   height: 200px;
+}
+.form{
+    top:8rem;
+}
+.subscribe-to-our1{
+    width:80px;
+}
+.form{
+   top: 6.5rem;
+}
+.services{
+    left: 26px;
+}
+.about{
+    left: 26px;
+    top: 24rem;
+}
+.help{
+    left: 26px;
+    top: 37rem;
+}
+.contact-us{
+    left: 26px;
+    top: 40rem;
+}
+.row-3{
+	left: 26px;
+    top: 61rem;
+}
+.social{
+	left: 2px;
+	top: -4rem;
+}
+.medcheck-all-rights{
+    left: calc(30% - 370px);
+    top: 67rem;
+     width: 300px;
+}
+}

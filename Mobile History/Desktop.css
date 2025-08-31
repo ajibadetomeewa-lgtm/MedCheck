@@ -1022,6 +1022,9 @@
   	max-height: 100%;
   	object-fit: cover;
 }
+.notification-default:hover{
+	background-color: #dbeedb;
+}
 .miss-jennifer {
   	flex: 1;
   	position: relative;
