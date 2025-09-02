@@ -1,0 +1,218 @@
+@media (max-width:450px) {
+    .awereness-page{
+        height: 4150px;
+        overflow: hidden;
+    }
+    .component-18-parent{
+        display: none;
+    }
+    .history1{
+        display: none;
+        top: 7px;
+    }
+    .logo-group{
+     left: 30px;
+    }
+    .frame-parent11{
+        left: 293px;
+    }
+    .notificaton-open{
+        right: 11rem;
+        width: 250px;
+        top: 50px;
+    }
+    .group-inner, .expand{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 25px;
+        height: 30px;
+    }
+    .menu{
+        width: 230px;
+        right: 9rem;
+        top: 40px;
+    }
+    .menui:hover .popup-overlay{
+        display: block;
+        right: 20rem;
+        top: 3rem;
+    }
+    .menu .component-18{
+        width: 200px;
+    }
+    .our-service2,.our-service7{
+        width: 200px;
+        text-align: left;
+    }
+    .component-27{
+        margin-bottom: 10px;
+        padding: 10px 5px ;
+    }
+    .menu .component-18:hover,
+    .menu .component-27:hover{
+        background-color: #00ab00;
+	     color: #fff;
+    }
+    .awereness{
+        display: none;
+    }
+
+    .in-todays-market-the-circula-parent{
+       top: 150px;   
+       left: 10px;
+       text-align: center;
+    }
+    .welcome{
+        left: 8.4rem;
+        color: rgb(3, 72, 3);
+        font-size: 2rem;
+        font-family: 'SF Pro';
+    }
+      .in-todays-market-the-circula-parent .police-adopt-early{
+        width: 19rem;
+        top: 10px;
+        margin-left: 3rem;
+        font-size: 20px;
+        word-spacing: 3px;
+      }
+      .recently-added-products-parent{
+        top: 450px;
+        left: 20px;
+      }
+      .rectangle-container{
+        width:35%;
+        padding: 2px;
+      }
+      .recently-added-products, .harmful-fake-unregistered{
+        width: 52%;
+      }
+      .view-all-product{
+        right: 37rem;
+      }
+      .faqs-dropdown-parent{
+      border: 2px solid red;
+      width: 50%;
+      }
+     .faqs-dropdown{
+      width: 320px;
+      border: 2px solid red;
+      padding-left:k ;
+     }
+
+     .verified-store-and{
+      width: 250px;
+     }
+     .pharmacy-name-parent{
+      display: none;
+     }
+     .alpha-pharmacy-stores-limite-parent{
+      bottom: 20px;
+     }
+     .cmargs-pharmacy-wellmart-parent{
+      top: 10px;
+     }
+     .medplus-pharmacy-chain-parent{
+      top: 40px;
+     }
+     .help-pharmacy-lagos-parent{
+      top: 65px;
+     }
+     .medplus-pharmacy-the-palms-parent{
+      top: 90px;
+     }
+     .naza-pharmacy-life-link-ot-parent{
+      top: 120px;
+     }
+     .skylark-pharmacy-parent{
+      top: 150px;
+     }
+     .alpha-pharmacy{
+     font-weight: 900;
+      font-size: 22px;
+     }
+     .ikeja-lagos{
+      left: 0px;
+      top: 35px;
+      
+     }
+     .scrolling{
+      display: none;
+     }
+      .rectangle-parent{
+    top: 1205px;
+    height: 100%;
+}
+.rectangle{
+    height: 1243px;
+}
+.row-1{
+   left: 30px;
+}
+.newsletter {
+   left: 20px;
+   top: 50rem;
+   height: 200px;
+}
+.subscribe-to-our-container{
+   top: 2rem;
+  width: 100px;
+}
+.form{
+    top:8rem;
+}
+.subscribe-to-our1{
+    width:80px;
+}
+.services{
+    left: 20px;
+}
+.about{
+    left: 20px;
+    top: 30rem;
+}
+.help{
+    left: 20px;
+    top: 43rem;
+}
+.contact-us{
+    left: 20px;
+    top: 46rem;
+}
+.row-3{
+	left: 20px;
+    top: 69rem;
+}
+.social{
+	left: 2px;
+	top: -4rem;
+}
+.medcheck-all-rights{
+    left: calc(30% - 400px);
+    top: 76rem;
+     width: 300px;
+}
+}
+@media (max-width:380px){
+     .frame-parent11{
+     left: 265px;
+    }
+    .welcome{
+        left: 6rem;
+    }
+    .in-todays-market-the-circula-parent .police-adopt-early{
+        margin-left: 1rem;
+    }
+    .recently-added-products, .harmful-fake-unregistered{
+        font-size: 25px;
+        width: 44%;
+        margin-right: 20px;
+      }
+      .rectangle-container{
+        width: 35%;
+      }
+      .luminosa-beauty{
+        right: 12px;
+      }
+}
