@@ -25,8 +25,8 @@
 .meet-the-team {
   	position: absolute;
   	top: 185px;
-  	left: calc(50% - 116px);
-  	/* font-size: 36px; */
+  	left: calc(50% - 50px);
+  	font-size: 36px;
   	letter-spacing: -0.03em;
   	line-height: 40px;
 }
@@ -41,7 +41,7 @@
 .each-individual-brings-container {
   	position: absolute;
   	top: 289px;
-  	left: calc(50% - 600px);
+  	left: calc(50% - 550px);
   	letter-spacing: -0.03em;
   	line-height: 36px;
   	font-weight: 500;
@@ -49,6 +49,7 @@
   	text-align: center;
   	display: inline-block;
   	width: 1200px;
+	font-size: 30px;
 }
 .each-individual-brings {
   	margin: 0;
@@ -100,30 +101,68 @@
 .new-card-team:hover .rectangle-parent .uiux-design{
 	display: none;
 }
-.new-card-team:hover .dropdown{
+.new-card-team:hover div[class*="dropdown"]{
     display: block;
 }
-.dropdown{
+.new-card-team:hover img[alt="ojo-pics"]{
+	left: -1rem;
+	top: -9rem;
+}
+.new-card-team:hover img[alt="debo-pics"]{
+    left: -20px;
+	top: -6.2rem;
+}
+div[class*="dropdown"]{
 	width: 50%;
     text-align: left;
 	padding-top: 2rem;
 	display: none;
 	position: relative;
-	left: 2rem;
+	font-size: 25px;
+	right: 7.5rem;
 }
-.dropdown p{
+.dropdown-ojo{
+	right: 5rem !important;
+	top: -2rem;
+}
+.dropdown-dan{
+	right: -3rem !important;
+}
+div[class*="dropdown"] h3{
 	margin-bottom: 20px;
 }
-.dropdown .pro{
-	margin-bottom: 40px;
+div[class*="dropdown"] .pro{
+	margin-bottom: 30px;
 }
-.dropdown .project-manager{
+div[class*="dropdown"] .project-manager{
 	width: 400px;
 }
-.facebook-circle-fill-parent{
+.dropdown-ojo .project-manager{
+	width: 400px !important;
+}
+.dropdown-dan .project-manager{
+	width: 350px !important;
+}
+.dropdown-dan .facebook-circle-fill-parent{
+	left: 0px;
+}
+.charles-freeman-01-parent{
 	position: relative;
-	right: 20%;
-	padding-right: 20px;
+	height: 200px;
+	width: 400px;
+	top: 60px;
+}
+.facebook-circle-fill-parent{
+	position: absolute;
+	top: 10px;
+	}
+.charles-freeman-01{
+	position: absolute;
+	left: 12rem;
+	width: 300px;
+}
+.menu-line-icon{
+	padding-left: 5px;
 }
 .rectangle-parent {
   	width: 351px;
