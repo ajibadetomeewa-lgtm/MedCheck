@@ -381,7 +381,7 @@ img[alt="babs-pics"]{
 }
 .dropdown-babs .pro{
 	top: -2rem;
-	left: 2rem;
+	left: 3rem;
 }
 .dropdown-babs .project-manager{
 	bottom: 228rem;
@@ -392,12 +392,12 @@ img[alt="babs-pics"]{
 	top: -225rem;
 }
 .dropdown-babs .facebook-circle-fill-parent{
-
+ position: relative;
+ left: -2rem;
 }
- img[alt="facebook"]{
+.dropdown-babs img[alt="facebook"]{
 	position: absolute;
-	left: 2rem;
-	border: 2px solid red;
+	left: 10px;
 }
  .new-card-team{
 	box-shadow: none;
