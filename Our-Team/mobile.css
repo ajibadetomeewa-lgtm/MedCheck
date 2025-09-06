@@ -1,22 +1,28 @@
 @media (max-width: 500px) {
 .our-team{
-	height: 4805px;
+	height: 5805px;
+}
+.logo-group{
+	left: 20px;
 }
 .component-18-parent{
  display: none;
  }  
  .frame-group{
-    left: 280px;
+    left: 320px;
  }
  .menu-icon{
  display: block;
+ width: 25px;
+ height: 30px;
+ top: 15px;
  }
  .menui:hover .popup-overlay{
    display: block;
  }
  .component-27{
-        margin-bottom: 10px;
-        padding: 10px 5px ;
+     margin-bottom: 10px;
+     padding: 10px 5px ;
     }
 	.menu .component-18:hover,
     .menu .component-27:hover{
@@ -30,8 +36,7 @@
    width: 100%;
 }
  .meet-the-team{
-    left:  80px;
-    top: 130px;
+    top: 140px;
  }
  .each-individual-brings{
     margin-left: 26rem;
@@ -39,10 +44,255 @@
  }
  .each-individual-brings-container{
     top: 230px;
+	left: calc(50% - 600px);
  }
- .rectangle-parent15{
+ .frame-parent{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ }
+ .new-card-team-parent{
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+ }
+ .new-card-team{
+	width: 90%;
+	max-width: 350px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	bottom: 7rem;
+	
+ }
+ .group-child{
+	width: 200px;
+	height: 150px;
+	object-fit: contain;
+	left: 70px;
+ }
+ div[class*="dropdown"]{
+    display: block;
+	right: 7rem !important;
+	bottom: 9rem;
+ }
+ .dropdown-dan .project-manager{
+	width: 450px !important;
+ }
+ .dropdown-dan .charles-freeman-01-parent{
+	width: 550px;
+	top: 25px;
+	right: 40px;
+ }
+ .dropdown-dan .charles-freeman-01-parent p{
+	display: block;
+	bottom: 3.5rem;
+	left: 10.5rem;
+	width: 270px;
+ }
+ .facebook-circle-fill-parent{
+	left: 10px;
+ }
+ .new-card-team .fortune-nwachukwu, .uiux-design{
+	display: none;
+ }
+ .new-card-team h3{
+	font-size: 35px;
+ }
+ .new-card-team .project-manager, .i-am-esther{
+	font-size: 20px;
+ }
+img[alt="ojo-pics"]{
+	margin-top: -15rem;
+}
+ div[class*="dropdown"] h3, .pro{
+	 width: 300px;
+	 position: absolute;
+ }
+ div[class*="dropdown"] .project-manager{
+	position: relative;
+ }
+ .dropdown-dan h3{
+	bottom: 16rem;
+	left: 5rem;
+ }
+ .dropdown-dan .pro{
+  bottom: 13rem;
+  left: 5rem;
+ }
+ .dropdown-ojo h3{
+    bottom: 35rem;
+	left: 2rem;
+ }
+ .dropdown-ojo .pro{
+	bottom: 32rem;
+	left: 6rem;
+ }
+ .dropdown-ojo .project-manager{
+	bottom: 22rem;
+	text-align: center;
+	right: 1rem;
+ }
+ .dropdown-ojo .charles-freeman-01-parent{
+	position: absolute;
+	top: -8rem;
+	left: -35px;
+ }
+ img[alt="debo-pics"]{
+	margin-top: -21rem;
+ }
+ .dropdown h3{
+	bottom: 43rem;
+	left: 3rem;
+ }
+ .dropdown .pro{
+	bottom:40rem;
+	left: 8rem;
+ }
+ .dropdown .project-manager{
+	bottom: 20rem;
+	text-align: center;
+	right: 10px;
+	width: 390px !important;
+ }
+ .dropdown .charles-freeman-01-parent{
+	top: -19rem;
+ }
+ img[alt="bola-pics"]{
+	margin-top: -42rem;
+ }
+ .dropdown-bola h3{
+	bottom: 61rem;
+	left: -5rem;
+ }
+ .dropdown-bola .pro{
+	bottom: 58rem;
+ }
+ .dropdown-bola .project-manager{
+	bottom: 40rem;
+	left: -7rem;
+	text-align: center;
+ }
+ .dropdown-bola .charles-freeman-01-parent{
+	top: -39rem;
+	right: 8rem;
+ }
+ img[alt="abdul-pics"]{
+	margin-top: -58rem;
+ }
+ .dropdown-abdul h3{
+	bottom: 78rem;
+	left: 2.5rem;
+ }
+ .dropdown-abdul .pro{
+	bottom: 75rem;
+	left: 6.5rem;
+ }
+ .dropdown-abdul .project-manager{
+	bottom: 57rem;
+	text-align: center;
+	left: -19px;
+ }
+ .dropdown-abdul .charles-freeman-01-parent{
+	top: -57rem;
+ }
+ img[alt="ola-pics"]{
+	margin-top: -75rem;
+ }
+ .dropdown-ola h3{
+	bottom: 92rem;
+	left: 2rem;
+ }
+ .dropdown-ola .pro{
+	bottom: 89rem;
+	left: 7rem;
+ }
+ .dropdown-ola .project-manager{
+	bottom: 73rem;
+	text-align: center;
+ }
+ .dropdown-ola .charles-freeman-01-parent{
+	 top: -72rem;
+ }
+ .dropdown-ola .charles-freeman-01, .dropdown-abdul .charles-freeman-01{
+	margin-left: 3rem;
+ }
+ img[alt="bello-pics"]{
+	margin-top: -96rem;
+ }
+ .dropdown-bello h3{
+	bottom: 114rem;
+	left: -50px;
+ }
+ .dropdown-bello .pro{
+   bottom: 111rem;
+   left: -27px;
+ }
+ .dropdown-bello .project-manager{
+	bottom: 94rem;
+	right: 9rem;
+	text-align: center;
+ }
+ .dropdown-bello .charles-freeman-01-parent{
+	top: -93rem;
+	right: 9rem;
+ }
+ img[alt="beye-pics"]{
+	margin-top: -112rem;
+ }
+ .dropdown-beye h3{
+	bottom: 135rem;
+	left: 4rem;
+ }
+ .dropdown-beye .pro{
+	bottom: 132rem;
+	left: 7rem;
+ }
+ .dropdown-bello .charles-freeman-01, .dropdown-beye .charles-freeman-01{
+	margin-left: 4rem;
+ }
+ .dropdown-beye .project-manager{
+	bottom: 110rem;
+	text-align: center;
+	right: 20px;
+	width: 410px !important;
+	line-height: 27px;
+ }
+ .dropdown-beye .charles-freeman-01-parent{
+	top: -110rem;
+ }
+ img[alt="star-pics"]{
+	margin-top: -129rem;
+ }
+ .dropdown-star h3{
+	top: -132rem;
+	left: 5rem;
+ }
+ .dropdown-star .pro{
+   top: -129rem;
+   left: 7rem;
+ }
+ .dropdown-star .i-am-esther{
+	position: absolute;
+	bottom: 132rem;
+	width: 390px;
+	text-align: center;
+	left: -10px;
+ }
+ .dropdown-star .charles-freeman-01-parent{
+	top: -120rem;
+ }
+ .new-card-team{
+	box-shadow: none;
+ }
+ .new-card-team:hover img[class="group-child"]{
+	left: 70px;
+	top: 0px;
+ }
+  .rectangle-parent15{
    width: 100%;
    height: 70rem;
+   top: 4700px;
  }
  .rectangle{
    position: absolute;
@@ -50,9 +300,6 @@
   	width: 456px;
   	height: 100%;
 	padding-bottom: 20rem;
-}
-.rectangle-parent{
-	width: 2;
 }
 .row-1{
    left: 30px;
