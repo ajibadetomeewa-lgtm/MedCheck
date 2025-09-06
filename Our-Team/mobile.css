@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
 .our-team{
-	height: 5805px;
+	height: 900rem;
 }
 .logo-group{
 	left: 20px;
@@ -282,6 +282,123 @@ img[alt="ojo-pics"]{
  .dropdown-star .charles-freeman-01-parent{
 	top: -120rem;
  }
+ .dropdown-star  .charles-freeman-01{
+	margin-left: 5rem;
+ }
+ img[alt="ab-pics"]{
+	margin-top: -145rem;
+ }
+ .dropdown-ab h3{
+	bottom: 162rem;
+	left: 3rem;
+ }
+ .dropdown-ab .pro{
+	bottom: 159rem;
+	left: 6rem;
+ }
+ .dropdown-ab .project-manager{
+	bottom: 145rem;
+	text-align: center;
+ }
+ .dropdown-ab .charles-freeman-01-parent{
+	top: -144rem;
+ }
+ .dropdown-ab .charles-freeman-01, .dropdown-fort .charles-freeman-01{
+	margin-left: 2rem;
+ }
+ img[alt="fort-pics"]{
+	margin-top: -165rem;
+ }
+ .dropdown-fort h3{
+	bottom: 182rem;
+	left: 2rem;
+	width: 350px !important;
+ }
+ .dropdown-fort .pro{
+	bottom: 179rem;
+	left: 6rem;
+}
+.dropdown-fort .project-manager{
+	bottom: 165rem;
+	text-align: center;
+}
+.dropdown-fort .charles-freeman-01-parent{
+	top: -164rem;
+}
+img[alt="jen-pics"]{
+	margin-top: -184rem;
+}
+.dropdown-jen h3{
+    bottom: 23rem;
+	left: 3rem;
+}
+.dropdown-jen .pro{
+	bottom: 21rem;
+	left: 2.7rem;
+    text-align: center;
+}
+.dropdown-jen .project-manager{
+	bottom: 185rem;
+	text-align: center;
+	right: 0.5rem;
+	width: 385px !important;
+}
+.dropdown-jen .charles-freeman-01-parent{
+	top: -183rem;
+}
+.dropdown-jen .charles-freeman-01{
+	margin-left: 4rem;
+}
+img[alt="bas-pics"]{
+	margin-top: -208rem;
+}
+.dropdown-bas h3{
+	bottom: 226rem;
+	left:-4rem;
+}
+.dropdown-bas .pro{
+	bottom: 224rem;
+	left: -40px;
+	font-size: 20px;
+}
+.dropdown-bas .project-manager{
+	bottom: 209rem;
+	right: 9rem;
+	text-align: center;
+}
+.dropdown-bas .charles-freeman-01-parent{
+	top: -208rem;
+	right: 9rem;
+}
+img[alt="babs-pics"]{
+	margin-top: -228rem;
+}
+.dropdown-babs h3{
+	top: -5rem;
+	width: 450px !important;
+	font-size: 32px;
+	left: -30px;
+}
+.dropdown-babs .pro{
+	top: -2rem;
+	left: 2rem;
+}
+.dropdown-babs .project-manager{
+	bottom: 228rem;
+	text-align: center;
+	right: 15px;
+}
+.dropdown-babs .charles-freeman-01-parent{
+	top: -225rem;
+}
+.dropdown-babs .facebook-circle-fill-parent{
+
+}
+ img[alt="facebook"]{
+	position: absolute;
+	left: 2rem;
+	border: 2px solid red;
+}
  .new-card-team{
 	box-shadow: none;
  }
@@ -292,7 +409,7 @@ img[alt="ojo-pics"]{
   .rectangle-parent15{
    width: 100%;
    height: 70rem;
-   top: 4700px;
+   top: 9700px;
  }
  .rectangle{
    position: absolute;
