@@ -1,45 +1,139 @@
 @media (max-width:450px){
-    .sigup-page{
-     background-image: none;
-     height: 80rem;
-    }
-    .logo{
-    position: relative;
-	top: 20px;
-	margin-left: 1rem;
-}
-.start h4{
-    font-size: 30px;
-    margin-bottom: 5rem;
-}
-.menu{
+  body{
+    overflow: hidden;
+    height: 90rem;
+  }
+  .logo{
+    left: 20px;
+  }
+  .logo img{
+    width: 40px;
+  }
+  .logo h4{
+    font-size: 20px;
+    font-weight: lighter;
+    bottom: 5px;
+    left: 3rem;
+  }
+  .menu{
     display: block;
-    left: 24rem;
-    font-size: 25px;
-}
-form{
-    margin-left: 20px;
-    border:none ;
-    background-color: none;
-    box-shadow: none;
-    width: 27rem;
+    left: 22rem;
+    font-size: 30px;
     
+  }
+  .sigup-page{
+    background-image: none;
+  }
+  form{
+    margin-left: 15px;
+    border: none;
+    box-shadow: none;
+    height: 80rem;
+  }
+  .formi{
+    width: 100%;
+    margin-inline: 0px !important;
+  }
+  .formi .start h4{
+         margin-bottom: 4rem;
+         font-size: 35px;
+    }
+    .formi .start p{
+        width: 30%;
+        padding: 30px;
+        font-size: 20px;
+        margin-left: 9rem;
+     }
+     .formi .register .sign{
+       width: 95%;
+       margin-left: 10px;
+       padding: 10px;
+       background-color: lch(97.45% 1.06 18.86);
+     }
+    form .terms-and-services{
+     	font-size: 16px;
+    	color: #1c1a1a;
+    	margin-bottom: 20px;
+      width: 95%;
+      margin-left: 10px;
+     }
+    .verify button{
+	width: 95%;
+    font-size: 20px;
+	padding: 25px;
+	margin-left: 10px;
+     }
+   .divider {
+  width: 90%;
+  margin: 0px 0px 20px 1rem;
+    }
+    .divider span{
+         color: #5f5b5b;
+    }
+    .registerii .sign{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .sign .fa-google, .fa-facebook{
+	position: relative;
+	right: 4rem;
+     }
+     .sign .fa-linkedin{
+     position: relative;
+     right: 7rem;
+      }
+     .account{
+	color: #5f5b5b;
+	text-align: center;
+    }
 }
-form .sign{
-    width: 95%;
-    margin-left: 5px;
-    padding: 20px;
-    font-size: 24px;
+@media (max-width:395px) {
+     .menu{
+      left: 18rem;
+      bottom: 3px;
+     }
+     form{
+      margin-inline: 10px;
+     }  
+     .formi .start p{
+      margin-left: 8rem;
+     }
+    .register .sign{
+      width: 85% !important;
+     }
+     form .terms-and-services{
+        width: 85%;
+        font-size: 14px;
+     }
+     .verify button{
+      width: 85%;
+     }
+     .divider{
+      width: 85%;
+     }
+     .registerii .sign{
+      width: 85%;
+     }
 }
-.terms-and-services{
-    width: 80%;
-    margin-left: 20px;
-}
-.verify, .account{
-    color: grey;
-}
-.verify button{
-    width: 95%;
-    margin-left: 2px;
-}
+@media (max-width:395px) {
+     .formi .start h4{
+      width: 85%;
+     }
+     .formi .start p{
+      margin-left: 7rem;
+     }
+     .register .sign{
+      width: 80% !important;
+     }
+     .registerii .sign{
+      width: 85%;
+      margin-left: 5px;
+     }
+     .verify button, .divider{
+      width: 80%;
+     }
+     .account{
+      width: 80%;
+      margin-left: 10px;
+     }
 }

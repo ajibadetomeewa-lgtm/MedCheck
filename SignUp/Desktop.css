@@ -15,7 +15,7 @@ body{
 .logo{
     position: relative;
 	top: 20px;
-	margin-left: 6.5rem;
+    left: 6.5rem;
 }
 .logo h4{
     position: absolute;
@@ -30,7 +30,7 @@ body{
 	display: none;
 }
 form{
-	border: 1px solid rgba(37, 29, 29, 0.3);
+	border: 1px solid rgba(168, 57, 57, 0.3);
 	width: 25rem;
 	margin: 4rem 0px 2rem 8.7rem;
 	height:68rem;
@@ -106,13 +106,6 @@ form .terms-and-services input{
 }
 .verify button:hover{
 	background-color: rgb(46, 242, 46);
-}
-.divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 72%;
-  margin: 0px 0px 20px 3rem;
 }
 .divider {
   display: flex;
