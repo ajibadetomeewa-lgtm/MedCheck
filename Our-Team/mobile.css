@@ -121,6 +121,7 @@
     }
     footer .medlogo h3{
         font-size: 30px;
+        border: none;
     }
     footer .explore{
         display: flex;
