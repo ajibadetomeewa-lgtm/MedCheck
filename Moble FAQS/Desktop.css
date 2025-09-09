@@ -1,717 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 *{
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
 }
-
-.faqs {
-  	position: relative;
-  	background-color: #fafafa;
-  	height: 1792px;
-	width: 1265px;
-  	overflow: hidden;
-  	text-align: left;
-  	color: #424242;
-  	font-family: 'DM Sans';
+.faqs{
+     font-family: 'DM Sans', sans-serif;
+	 background-color: #fafafa;
+	 overflow-x: hidden;
+     width: 83rem;
 }
-.ellipse-parent {
-  	position: absolute;
-  	top: 197px;
-  	left:2rem;
-  	width: 1278px;
-  	height: 806px;
-  	text-align: center;
-  	font-size: 16px;
+nav .logo{
+    position: relative;
+    left: 4rem;
+	bottom: 3px;
 }
-.group-child {
-  	position: absolute;
-  	top: -0.5px;
-  	left: -0.5px;
-  	filter: drop-shadow(0px 5px 16.3px rgba(131, 131, 131, 0.25));
-  	border-radius: 50%;
-  	border: 1px dashed #1a1a1a;
-  	width: 714px;
-  	height: 807px;
+nav .logo p{
+   position: absolute;
+   bottom: 15px;
+   left: 4rem;
+   font-size: 18px;
 }
-.mask-group-icon {
-  	position: absolute;
-  	top: 9px;
-  	left: 5px;
-  	width: 695px;
-  	height: 781px;
-  	object-fit: cover;
-	border-radius: 50%;
+nav{
+    padding-top: 30px;
+    display: flex;
+    gap: 9rem;
 }
-.frequently-asked-questions {
-  	position: absolute;
-  	top: 71px;
-  	left: calc(50% + 5px);
-  	letter-spacing: -0.03em;
-  	line-height: 40px;
-  	display: inline-block;
-  	width: 578px;
+nav .more ul{
+    list-style: none;
+    height: 3rem;
+     padding: 10px;
+     margin-left: 19rem;
+     font-size: 18px;
+     display: flex;
 }
-.faqs-dropdown-parent {
-  	position: absolute;
-  	top: 191px;
-  	left: 740px;
-  	width: 29rem;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	gap: 15px;
-  	text-align: left;
-  	color: #1a1a1a;
+nav ul li a {
+    text-decoration: none;
+     color: #00c503;
+     padding: 15px;
 }
-.faqs-dropdown {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-}
-.what-is-medcheck-parent {
-  	align-self: stretch;
-  	background-color: #fff;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	padding: 10px 15px;
-  	gap: 24px;
-	width: 100%;
-}
-.what-is-medcheck {
-  	width: 548px;
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 32px;
-  	font-weight: 500;
-  	display: inline-block;
-  	flex-shrink: 0;
-	width: 350px;
-}
-.fa-chevron-down{
-	position: relative;
-}
-.rectangle-parent {
-  	position: absolute;
-  	top: 1149px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 643px;
-  	color: #fff;
-}
-.rectangle {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background-color: #005f00;
-  	width: 1440px;
-  	height: 643px;
-}
-.call-to-action{
-	position: relative;
-	width: 30rem;
-	height: 220px;
-	top: 60rem;
-	left: 20rem;
-	background-color: #045f04;
-	border-radius: 15px;
-	color: #fff;
-	text-align: center;
-	display: none;
-}
-.row-1 {
-  	position: absolute;
-  	top: 60.26px;
-  	left: 70px;
-  	width: 1068.9px;
-  	height: 80.7px;
-}
-.logo {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 192px;
-  	height: 44.8px;
-}
-.logo-parent {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 17px;
-  	cursor: pointer;
-}
-.logo-icon {
-  	width: 56px;
-  	position: relative;
-  	height: 44.8px;
-}
-.medcheck {
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 32px;
-}
-.divider {
-  	position: absolute;
-  	top: 79.74px;
-  	left: 0.93px;
-  	background-color: #fff;
-  	width: 1068px;
-  	height: 1px;
-  	opacity: 0.1;
-  	mix-blend-mode: normal;
-}
-.newsletter {
-  	position: absolute;
-  	top: 181px;
-  	left: 70px;
-  	width: 346.8px;
-  	height: 139px;
-}
-.subscribe-to-our-container {
-  	position: absolute;
-  	top: calc(50% - 69.5px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-}
-.subscribe-to-our {
-  	margin: 0;
-}
-.form {
-  	position: absolute;
-  	height: 36.69%;
-  	width: 100%;
-  	top: 63.31%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-}
-.faqs-rectangle {
-  	position: absolute;
-  	height: 1.96%;
-  	width: 100%;
-  	top: 98.04%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	background-color: #fff;
-  	opacity: 0.1;
-  	mix-blend-mode: normal;
-}
-.faqs-subscribe-to-our {
-  	position: absolute;
-  	top: calc(50% - 11.5px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-}
-.submit-icon {
-  	position: absolute;
-  	height: 98.04%;
-  	width: 17.3%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 1.96%;
-  	left: 82.7%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.services {
-  	position: absolute;
-  	top: 181px;
-  	left: 566.8px;
-  	width: 127.2px;
-  	height: 182px;
-  	overflow: hidden;
-}
-.faqs-services {
-  	position: absolute;
-  	width: 67.92%;
-  	top: calc(50% - 91px);
-  	left: 0%;
-  	font-size: 18px;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	display: inline-block;
-  	color: #99fcaf;
-}
-.email-marketing {
-  	position: absolute;
-  	width: 94.34%;
-  	top: calc(50% - 49px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-  	cursor: pointer;
-}
-.campaigns {
-  	position: absolute;
-  	width: 100.94%;
-  	top: calc(50% - 9px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-  	cursor: pointer;
-}
-.branding {
-  	position: absolute;
-  	width: 72.64%;
-  	top: calc(50% + 31px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-  	cursor: pointer;
-}
-.offline {
-  	position: absolute;
-  	top: calc(50% + 71px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	cursor: pointer;
-}
-.about {
-  	position: absolute;
-  	top: 181px;
-  	left: 860px;
-  	width: 159px;
-  	height: 182px;
-}
-.faqs-about {
-  	position: absolute;
-  	top: calc(50% - 91px);
-  	left: 0%;
-  	font-size: 18px;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	color: #99fcaf;
-}
-.our-story {
-  	position: absolute;
-  	top: calc(50% - 49px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	cursor: pointer;
-}
-.benefits {
-  	position: absolute;
-  	top: calc(50% - 9px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	cursor: pointer;
-}
-.careers {
-  	position: absolute;
-  	width: 86.16%;
-  	top: calc(50% + 71px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-  	cursor: pointer;
-}
-.team {
-  	position: absolute;
-  	top: calc(50% + 31px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	cursor: pointer;
-}
-.help {
-  	position: absolute;
-  	width: 4.15%;
-  	top: calc(50% - 140.5px);
-  	left: 75.64%;
-  	font-size: 18px;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	display: inline-block;
-  	color: #99fcaf;
-}
-.contact-us {
-  	position: absolute;
-  	top: calc(50% - 98.5px);
-  	left: 75.64%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	cursor: pointer;
-}
-.row-3 {
-  	position: absolute;
-  	top: 433px;
-  	left: 65px;
-  	width: 1200px;
-  	height: 22px;
-}
-.terms-conditions {
-  	position: absolute;
-  	width: 12.93%;
-  	top: calc(50% - 9px);
-  	left: 0%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-}
-.privacy-policy {
-  	position: absolute;
-  	width: 8.99%;
-  	top: calc(50% - 9px);
-  	left: 16.2%;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	display: inline-block;
-}
-.social {
-  	position: absolute;
-  	height: 100%;
-  	width: 12.54%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 80.46%;
-}
-.facebook-icon {
-  	position: absolute;
-  	height: 90%;
-  	width: 7.38%;
-  	top: 4.55%;
-  	right: 92.62%;
-  	bottom: 5.45%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.twitter-icon {
-  	position: absolute;
-  	height: 81.36%;
-  	width: 16.41%;
-  	top: 9.09%;
-  	right: 46.29%;
-  	bottom: 9.55%;
-  	left: 37.3%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
-.instagram-icon {
-  	position: absolute;
-  	height: 100%;
-  	width: 16.41%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 83.59%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-  	object-fit: cover;
-}
-.medcheck-all-rights {
-  	position: absolute;
-  	top: 577px;
-  	left: calc(50% - 650px);
-  	font-size: 20px;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	font-weight: 500;
-  	color: #e5feeb;
-  	text-align: center;
-  	display: inline-block;
-  	width: 1200px;
-}
-.logo-group {
-  	position: absolute;
-  	top: 21px;
-  	left: 40px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 17px;
-  	cursor: pointer;
-  	font-size: 18px;
-  	color: #1a1a1a;
-}
-.faqs-logo-icon {
-  	width: 40px;
-  	position: relative;
-  	height: 32px;
-}
-.faqs-medcheck {
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	font-weight: 500;
-}
-.component-18-parent {
-  	position: absolute;
-  	top: 3px;
-  	left: calc(50% - 220px);
-  	border-radius: 25px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 15px;
-  	gap: 25px;
-  	color: #00c503;
-	border: 2px s0lid red;
-}
-.component-18 {
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 5px 10px;
-  	font-size: 18px;
-}
-.component-17 {
-  	border-radius: 10px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 5px 10px;
-}
-.component-18-parent .component-18:hover,
-.component-18-parent .component-17:hover{
+nav .more ul li:hover a{
      background-color: #005f00;
     color: white;
-	border-radius: 10px;
+    border-radius: 10px;
 }
-
-.faqs-our-service {
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	font-weight: 500;
+nav .icon{
+    position: relative;
+    bottom: 20px;
+    left: 14rem;
 }
-.frame-parent {
-  	position: absolute;
-  	top: 9px;
-  	left: 1066px;
-  	width: 174px;
-  	height: 60px;
+nav .icon .notification{
+    position: absolute;
+    top: 20px;
+    left: -60px;
+    width: 40px;
 }
-.group-item {
-  	position: absolute;
-  	top: 13px;
-  	left: 140px;
-  	width: 34px;
-  	height: 34px;
+nav .anime{
+    position: absolute;
+    top: 0px;
 }
-.group-inner {
-  	position: absolute;
-  	top: 0px;
-  	left: 57px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
+nav .icon .menui{
+    display: none;
 }
-.frame-icon {
-  	position: absolute;
-  	top: 13px;
-  	left: 0px;
-  	border-radius: 100px;
-  	width: 34px;
-  	height: 34px;
+nav .icon .expand{
+    position: absolute;
+    top: 20px;
+    left: 5rem;
+    width: 100px;
 }
-
-
-.notificaton-open {
-  	width: 300px;
-	border: 2px solid rgb(241, 237, 237);
-  	position: relative;
-  	border-radius: 0px 0px 15px 15px;
-  	background-color: #fff;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-	z-index: 999;
-  	padding: 15px;
-  	gap: 10px;
-	top: 70px;
-	right: 70px;
-  	 text-align: left;
-  	font-size: 12px;
-  	color: #1a1a1a;
-  	font-family: 'DM Sans';
-	display: none;
+nav .expand .dropdowni{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 3rem;
+    background-color: #fff;
+	border: 2px solid rgb(239, 237, 237);
+    position: absolute;
+    width: 10rem;
+    right: 4rem;
+    display: none;
 }
-.notification-default {
-  	width: 252px;
+nav .expand a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    color:  #00c503;
+    font-size: 20px;
+}
+nav .expand:hover .dropdowni{
+    display: block;
+}
+nav .expand a:hover{
+  color: #fff;
+  background-color: #00c503;
+}
+nav .notification .dropdown{
+  position: absolute;
+  width: 30rem;
+  left: -5rem;
+  top: 3rem;
+  padding: 10px;
+   background-color: #fff;
+  border: 2px solid rgb(224, 219, 219);
+  display: none;
+  height: 36rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+nav .defaultchild{
+    position: relative;
+    width: 100%;
   	border-radius: 0px 10px 10px 10px;
   	background-color: #fff;
   	border-bottom: 2px solid #00ab00;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	padding: 10px;
-  	gap: 12px;
+    padding: 10px;
 }
-.notification-default-child {
-  	width: 40px;
-  	position: relative;
-  	border-radius: 50%;
-  	max-height: 100%;
-  	object-fit: cover;
+nav .defaultchild .miss{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 4rem;
 }
-.notify:hover .notificaton-open{
- display: block;
+nav .defaultchild p span {
+    margin-left: 2rem;
 }
-.notification-default:hover{
-	background-color: #dbeedb;
+nav .defaultchild span{
+   color: #999;
+   margin-left: 3rem;
+   margin-bottom: 50px;
 }
-.menu-icon{
+nav .fake{
+    font-size: 12px;
+    position: absolute;
+    left: 4rem;
+    bottom: 2.5rem;
+}
+nav .defaultchild:hover{
+    background-color: #dbeedb;
+}
+nav .notification:hover .dropdown{
+    display: block;
+}
+nav .menuicon .options{
+        min-width: 13rem;
+        position: absolute;
+        left: -10rem;
+        top: 5rem;
+        display: none;
+}
+nav .menuicon .menu{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 20px 10px;
+        border: 2px solid rgb(223, 219, 219);
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+}
+section{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 12rem;
+}
+section .pics{
+	border: 6px dashed rgb(198, 194, 194);
+    border-radius: 50%;
+	padding: 5px 5px 10px 3px;
+	width: 50rem;
+	margin-left: -13rem;
+	box-shadow: 2px 2px 2px #8f8b8b;
+	margin-bottom: 2rem;
+}
+section .pics img{
+	width: 98%;
+	border-radius: 50%;
+}
+section .content{
+	width: 50%;
+	height: 53rem;
+	margin-bottom: 2rem;
+}
+section h3{
+	font-size: 31px;
+	margin-bottom: 3rem ;
+    margin-left: 1rem;
+    color: #424242;
+}
+section .big-question {
+  color: red;  
+}
+
+section .medcheck{
+	margin-bottom: 1rem;
+	padding: 15px;
+	position: relative;
+	font-size: 22px;
+	background-color: #fff;
+    width: 90%;
+}
+section p{
+    width: 550px;
+}
+section .medcheck span{
+   position: absolute;
+   right: 20px;
+}
+section .medcheck .a-rrow{
+	bottom: 5px;
+    right: 1px;
 	position: absolute;
-  	top: 12px;
-  	left: 57px;
-  	width: 30px;
-  	object-fit: cover;
+}
+.arrowdown{
 	display: none;
 }
-.menu{
-	width: 230px;
-  	position: relative;
-  	background-color: #fff;
-	z-index: 999;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	gap: 5px;
-  	overflow: auto;
-  	text-align: right;
-  	font-size: 18px;
-  	color: #00c503;
-  	font-family: 'DM Sans';
-	top: 4.4rem;
-	right: 4rem;
-	padding: 10px 15px;
-	border: 2px solid rgb(245, 242, 242);
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	display: none;
+section .medcheck ul{
+ list-style: none;
 }
-.frame-group {
-  	flex: 1;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	gap: 6px;
+section .medcheck:hover .arrowdown{
+	display: block;
 }
-.miss-jennifer-parent {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	gap: 14px;
-  	font-size: 16px;
+section .medcheck:hover{
+	background-color: #15d218;
+	cursor: pointer;
 }
-.miss-jennifer {
-  	flex: 1;
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 24px;
-  	font-weight: 500;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
-  	white-space: nowrap;
+article{
+    width: 50%;
+    margin:20px 22rem ;
+    text-align: center;
+    background-color: #005f00;
+    color: #fafafa;
+    padding: 20px;
+    display: none;
 }
-.view-wrapper {
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 5px;
-  	text-align: center;
-  	font-size: 12px;
-  	color: #999;
+footer{
+    background-color: #005f00;
+    height: 41rem;
+    color: #fff;
 }
-.view {
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 16px;
+footer .medlogo{
+   position: relative;
+   top: 3rem;
+   left: 4rem;
+   border-bottom: 1px solid rgb(126, 124, 124);
+   padding-bottom: 3rem;
+   width: 90%;
+   margin-bottom: 5rem;
 }
-.fake-product-everywhere {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 16px;
-  	color: #4d4d4d;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
-  	white-space: nowrap;
+footer .medlogo h3{
+    position: absolute;
+    top: 2px;
+    left: 4rem;
+    font-size: 35px;
 }
-.m-ago {
-  	align-self: stretch;
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 16px;
-  	color: #999;
+footer .explore{
+    display: flex;
+    gap: 7rem;
+    width: 85%;
+    margin: auto;
+}
+footer .subscribe{
+     width: 12rem;
+     font-size: 20px;
+     margin-bottom: 3rem;
+}
+footer .mail{
+    width: 360px;
+    border-bottom: 2px solid rgb(95, 89, 89);
+    font-size: 20px;
+}
+footer .mail input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+ footer .service, .more, .help{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+footer button{
+    border: none;
+    background-color: #a4fca4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	width: 3rem;
+	height: 40px;
 }
 
-
-.profilelogout {
-  	width: 193px;
-  	position: relative;
-  	background-color: #fff;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	gap: 5px;
-  	max-width: 90%;
-  	max-height: 90%;
-  	overflow: auto;
-  	text-align: right;
-  	font-size: 18px;
-  	color: #00c503;
-  	font-family: 'DM Sans';
-	top: 4rem;
-	left: 2rem;
-	display: none;
+footer a{
+   width: 150px;
+   color: #fff;
+   text-decoration: none;
 }
-.profilelogout-component-18 {
-  	align-self: stretch;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-start;
-  	padding: 5px 10px;
+footer .differ{
+    color:  #83fc9d;
 }
-.profilelogout-component-18:hover{
-	background-color: #00ab00;
-	color: #fff;
+footer .terms{
+    display: flex;
+    gap: 32rem;
+    padding: 3rem;
+    width: 90%;
+    margin: auto;
+    font-size: 19px;
 }
-.expand:hover .profilelogout{
-   display: block;
+footer .terms .privacy{
+    margin-left: 3rem;
 }
-.profilelogout-our-service {
-  	flex: 1;
-  	position: relative;
-  	letter-spacing: -0.03em;
-  	line-height: 28px;
-  	font-weight: 500;
+footer .terms .social a{
+    margin-right: 40px;
 }
-
+footer .rights{
+   margin-top: 50px;
+   text-align: center;
+   font-size: 25px;
+}

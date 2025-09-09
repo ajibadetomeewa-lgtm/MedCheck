@@ -74,7 +74,6 @@ nav .expand .dropdowni{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
     top: 5rem;
     background-color: #fff;
     position: absolute;
@@ -291,10 +290,8 @@ footer button{
     background-color: #a4fca4;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-footer button img{
-    background-color: transparent;
-    height: 100%;
+    width: 3rem;
+	height: 40px;
 }
 footer a{
    width: 150px;
